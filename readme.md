@@ -4,7 +4,7 @@
 
 ### Projects included:
 
-* [map-operations][./map-operations/readme.md]
+* [map-operations](./map-operations/readme.md)
 
 ```
 	Some simple operations on java.util.Collections.Map
