@@ -22,7 +22,7 @@ public class TestMapOperations
 {
 	
 	static Map<String, Integer> map = new HashMap<String, Integer>();
-	static MapOperations mapOp = new MapOperations();
+
 	static
 	{
 		map.put("B", 2);
@@ -41,7 +41,7 @@ public class TestMapOperations
 		int currentValue = 0;
 		boolean check = true;
 		
-		for(Entry<String, Integer> entry : mapOp.sortMap(map, true).entrySet())
+		for(Entry<String, Integer> entry : MapOperations.sortMap(map, true).entrySet())
 		{
 			if(currentValue <= entry.getValue())
 			{
@@ -63,7 +63,7 @@ public class TestMapOperations
 		int currentValue = 6;
 		boolean check = true;
 		
-		for(Entry<String, Integer> entry : mapOp.sortMap(map, false).entrySet())
+		for(Entry<String, Integer> entry : MapOperations.sortMap(map, false).entrySet())
 		{
 			if(currentValue >= entry.getValue())
 			{
@@ -82,10 +82,9 @@ public class TestMapOperations
 	@Test
 	public void testTransposeMap()
 	{
-		int currentValue = 6;
 		boolean check = true;
 		
-		for(Entry<?, ?> entry : mapOp.transposeMap(map).entrySet())
+		for(Entry<?, ?> entry : MapOperations.transposeMap(map).entrySet())
 		{
 			if ((entry.getKey() instanceof Integer) && (entry.getValue() instanceof String))
 				check &= true;

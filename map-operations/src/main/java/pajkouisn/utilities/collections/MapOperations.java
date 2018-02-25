@@ -23,7 +23,7 @@ public class MapOperations
 	/*
 	 * 	Default Constructor to allow map operations.
 	 */
-	public MapOperations()
+	MapOperations()
 	{
 		
 	}
@@ -77,6 +77,7 @@ public class MapOperations
 	 * 	@param originalMap
 	 * 	@return transposeMap
 	 */
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static Map<?, ?> transposeMap(Map<?, ?> originalMap) 
 	{
 		Map transposedMap = new HashMap();
