@@ -9,3 +9,9 @@
 ```
 	Some simple operations on java.util.Collections.Map
 ```
+
+* [json-operations](./json-operations/readme.md)
+
+```
+	Some simple operations on json-simple.
+```
