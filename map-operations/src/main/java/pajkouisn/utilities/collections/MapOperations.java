@@ -23,7 +23,7 @@ public class MapOperations
 	/*
 	 * 	Default Constructor to allow map operations.
 	 */
-	MapOperations()
+	public MapOperations()
 	{
 		
 	}
@@ -77,11 +77,11 @@ public class MapOperations
 	 * 	@param originalMap
 	 * 	@return transposeMap
 	 */
-	public static Map<String, String> transposeMap(Map<String, String> originalMap) 
+	public static Map<?, ?> transposeMap(Map<?, ?> originalMap) 
 	{
-		Map<String, String> transposedMap = new HashMap<String, String>();
+		Map transposedMap = new HashMap();
 		
-		for(String key: originalMap.keySet())
+		for(Object key: originalMap.keySet())
 		{
 			transposedMap.put(originalMap.get(key), key);
 		}
