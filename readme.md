@@ -15,3 +15,9 @@
 ```
 	Some simple operations on json-simple.
 ```
+
+* [strings](./strings/readme.md)
+
+```
+	Some simple operations and validations for strings.
+```
