@@ -10,7 +10,7 @@
 	Some simple operations on java.util.Collections.Map
 ```
 
-* [json-operations](./json-operations/readme.md)
+* [json-operations](https://github.com/Pajkouisn/Json-Operations/readme.md)
 
 ```
 	Some simple operations on json-simple.
