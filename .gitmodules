@@ -1,0 +1,3 @@
+[submodule "Json-Operations"]
+	path = Json-Operations
+	url = https://github.com/Pajkouisn/Json-Operations.git
