@@ -1,3 +1,6 @@
 [submodule "Json-Operations"]
 	path = Json-Operations
 	url = https://github.com/Pajkouisn/Json-Operations.git
+[submodule "Strings"]
+	path = Strings
+	url = https://github.com/Pajkouisn/Strings.git
