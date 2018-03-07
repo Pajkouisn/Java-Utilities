@@ -21,3 +21,9 @@
 ```
 	Some simple operations and validations for strings.
 ```
+
+* [http](https://github.com/Pajkouisn/HTTP/blob/master/readme.md)
+
+```
+	Easy interface to execute HTTP requests.
+```
