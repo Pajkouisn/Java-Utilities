@@ -7,3 +7,6 @@
 [submodule "Map-Operations"]
 	path = Map-Operations
 	url = https://github.com/Pajkouisn/Map-Operations.git
+[submodule "HTTP"]
+	path = HTTP
+	url = https://github.com/Pajkouisn/HTTP.git
