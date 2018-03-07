@@ -4,3 +4,6 @@
 [submodule "Strings"]
 	path = Strings
 	url = https://github.com/Pajkouisn/Strings.git
+[submodule "Map-Operations"]
+	path = Map-Operations
+	url = https://github.com/Pajkouisn/Map-Operations.git
