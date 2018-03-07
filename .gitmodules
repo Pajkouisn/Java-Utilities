@@ -1,0 +1,9 @@
+[submodule "Json-Operations"]
+	path = Json-Operations
+	url = https://github.com/Pajkouisn/Json-Operations.git
+[submodule "Strings"]
+	path = Strings
+	url = https://github.com/Pajkouisn/Strings.git
+[submodule "Map-Operations"]
+	path = Map-Operations
+	url = https://github.com/Pajkouisn/Map-Operations.git
